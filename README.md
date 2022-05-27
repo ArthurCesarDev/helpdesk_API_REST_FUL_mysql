@@ -19,32 +19,32 @@ postman
     "senha":"123"
     }
     
-Depois do Login e acessar o Bearer Token:
-e só acessar os Enpoint
+# Depois do Login e acessar o Bearer Token:
+ ### Só acessar os Enpoint
 
-<br />
-GET https://help-desk-rest.herokuapp.com/tecnicos    !lista todos tecnicos!
 
-<br />
-GET https://help-desk-rest.herokuapp.com/tecnicos/1  !buscar tecnico passando ID!
+GET https://help-desk-rest.herokuapp.com/tecnicos    !lista todos tecnicos! <br />
 
-<br />
-POST https://help-desk-rest.herokuapp.com/tecnicos   !create tecnico!
 
-<br />
-PUT https://help-desk-rest.herokuapp.com/tecnicos/1 !Update passando ID!
+GET https://help-desk-rest.herokuapp.com/tecnicos/1  !buscar tecnico passando ID! <br />
 
-<br />
-DELETE https://help-desk-rest.herokuapp.com/tecnicos/1 !delete usuario!
 
-<br />
-++EndPoint > só seguir a sequência do resumo acima depois de logado:
+POST https://help-desk-rest.herokuapp.com/tecnicos   !create tecnico! <br />
 
-<br />
-GET https://help-desk-rest.herokuapp.com/clientes
 
-<br />
-GET https://help-desk-rest.herokuapp.com/chamado
+PUT https://help-desk-rest.herokuapp.com/tecnicos/1 !Update passando ID! <br />
+
+
+DELETE https://help-desk-rest.herokuapp.com/tecnicos/1 !delete usuario! <br />
+
+
+###   ++EndPoint > só seguir a sequência do resumo acima depois de logado: <br />
+
+
+GET https://help-desk-rest.herokuapp.com/clientes <br />
+
+
+GET https://help-desk-rest.herokuapp.com/chamado <br />
 
 
 
